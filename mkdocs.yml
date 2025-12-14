@@ -21,6 +21,5 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - 0. Setup:
-      - "00 — Welcome": lectures/00-welcome.md
+  - 1. Dataset Creation:
       - "01 — Dataset > Model": lectures/01-dataset-beats-model.md
