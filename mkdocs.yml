@@ -11,10 +11,6 @@ theme:
 
 plugins:
   - search
-  - mkdocs-jupyter:
-      execute: false          # IMPORTANT: don't run notebooks during build
-      include_source: true    # show code cells
-      show_input: true
 
 markdown_extensions:
   - attr_list
@@ -28,7 +24,3 @@ nav:
   - 0. Setup:
       - "00 — Welcome": lectures/00-welcome.md
       - "01 — Dataset > Model": lectures/01-dataset-beats-model.md
-
-  - 5. Transformers:
-      - "50 — Attention concept": lectures/50-attention-concept.md
-      - "Notebook — Toy Attention": notebooks/50_attention_toy.ipynb
